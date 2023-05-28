@@ -1,6 +1,13 @@
-//andtd
-
+//antd
+//import { Row, Col } from "antd";
+//styling
+import "./Projects.scss";
+import Cards from "./Cards/Cards";
 const Projects = () => {
-  return <>this is the projects page</>;
+  return (
+    <div className="card-container">
+      <Cards />
+    </div>
+  );
 };
 export default Projects;

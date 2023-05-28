@@ -1,0 +1,19 @@
+.card {
+  .meta {
+    height: 100px;
+  }
+  .card-img {
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in;
+    &:hover {
+      object-fit: contain;
+      transform: scale(0.95);
+    }
+  }
+}
+textarea {
+  height: auto;
+  width: 100%;
+}
+//contain
