@@ -4,10 +4,6 @@
 import "./Projects.scss";
 import Cards from "./Cards/Cards";
 const Projects = () => {
-  return (
-    <div className="card-container">
-      <Cards />
-    </div>
-  );
+  return <Cards />;
 };
 export default Projects;

@@ -10,7 +10,7 @@ import { nameArray, jobArray } from "../../assets/text-array";
 
 const Home = () => {
   return (
-    <Row justify="center">
+    <Row justify="center" className="row" align="middle">
       <Col xs={22} lg={12} md={18}>
         <div className="home-page">
           <div className="text-zone">
@@ -27,7 +27,7 @@ const Home = () => {
               vehicula porta. Aliquam a nulla sit amet mi imperdiet sagittis.
             </p>
             <NavLink to="/contact" reloadDocument>
-              <button className="flat-button"> CONTACT ME</button>
+              <button className="flat-button">Contact Me</button>
             </NavLink>
             <button className="flat-button">Download CV</button>
           </div>

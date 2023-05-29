@@ -1,4 +1,5 @@
 .card {
+  padding: 5px;
   .meta {
     height: 100px;
   }
@@ -17,3 +18,9 @@ textarea {
   width: 100%;
 }
 //contain
+
+.card-row {
+  margin-top: 1rem;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}

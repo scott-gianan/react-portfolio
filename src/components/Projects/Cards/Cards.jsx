@@ -7,10 +7,16 @@ import { Row, Col } from "antd";
 import cardData from "../../../assets/card-data";
 //styling
 import "./Cards.scss";
-
+console.log(Card);
 const Cards = () => {
   return (
-    <Row justify="center">
+    <Row
+      align="center"
+      justify="center"
+      wrap="true"
+      className="card-row"
+      gutter={[16, 16]}
+    >
       {cardData.map(
         ({ id, src, title, description, alt, repoUrl, liveSiteUrl }) => {
           return (

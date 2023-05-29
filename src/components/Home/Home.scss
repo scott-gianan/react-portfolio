@@ -59,10 +59,14 @@ button {
 @media only screen and (max-width: 600px) {
   .home-page {
     h1 {
-      font-size: 2.5rem;
+      font-size: 2.75rem;
     }
     p {
-      font-size: 1rem;
+      font-size: 1.25rem;
     }
   }
+}
+
+.row {
+  height: 80vh;
 }
