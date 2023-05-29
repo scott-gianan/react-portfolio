@@ -1,5 +1,6 @@
 .card {
   padding: 5px;
+  border: 1px solid #d7dfe7;
   .meta {
     height: 100px;
   }
@@ -13,14 +14,8 @@
     }
   }
 }
-textarea {
-  height: auto;
-  width: 100%;
-}
-//contain
-
 .card-row {
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-right: 0 !important;
   margin-left: 0 !important;
 }

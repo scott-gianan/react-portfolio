@@ -18,13 +18,15 @@ const Cards = () => {
       gutter={[16, 16]}
     >
       {cardData.map(
-        ({ id, src, title, description, alt, repoUrl, liveSiteUrl }) => {
+        (
+          { id, src, title, description, alt, repoUrl, liveSiteUrl },
+          cardIndex
+        ) => {
           return (
             <Col key={`col-${id}`}>
               <Card
                 hoverable="true"
                 className="card"
-                type="inner"
                 key={id}
                 style={{
                   width: 300,
