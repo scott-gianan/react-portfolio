@@ -19,3 +19,15 @@
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
+
+.card-animate {
+  opacity: 0;
+  animation: bounceIn 2s 1s;
+  animation-fill-mode: forwards;
+}
+
+@for $i from 0 through 100 {
+  .card-animate._#{$i} {
+    animation-delay: #{$i/5}s;
+  }
+}

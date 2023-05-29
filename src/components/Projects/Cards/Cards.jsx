@@ -26,7 +26,7 @@ const Cards = () => {
             <Col key={`col-${id}`}>
               <Card
                 hoverable="true"
-                className="card"
+                className={`card card-animate _${cardIndex + 1}`}
                 key={id}
                 style={{
                   width: 300,
