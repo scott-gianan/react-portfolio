@@ -7,7 +7,7 @@ import { Row, Col } from "antd";
 import cardData from "../../../assets/card-data";
 //styling
 import "./Cards.scss";
-console.log(Card);
+
 const Cards = () => {
   return (
     <Row
