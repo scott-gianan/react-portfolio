@@ -8,12 +8,10 @@ import "./About.scss";
 const Skills = () => {
   return (
     <>
-      <Row align="center">
-        <Divider fontSize={100} colorText={`white`}>
-          Things about me
-        </Divider>
+      <Row align="center" className="about-animate">
+        <Divider className="divider">Things about me</Divider>
         <Col xs={22} md={18} lg={10}>
-          <p>
+          <p className="about-me-text">
             As a web developer, I embody a passion for continuous learning and
             an unwavering dedication to my craft. Through my commitment to
             self-improvement, I actively seek out resources, engage in coding
@@ -26,13 +24,13 @@ const Skills = () => {
           </p>
         </Col>
       </Row>
-      <Divider>Technologies Used:</Divider>
+      <Divider className="divider about-animate">Technologies Used:</Divider>
       <Row align="center">
         <Col xs={24} md={18} lg={10}>
           <div className="skills-container">
             {skillIcons.map((icon) => {
               return (
-                <div className="icon-container" key={icon.id}>
+                <div className="icon-container about-animate" key={icon.id}>
                   <FontAwesomeIcon
                     icon={icon.icon}
                     color={icon.color}

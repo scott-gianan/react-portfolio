@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   gap: 1rem;
   // width: 40vw;
-  animation: fadeIn 2s;
+  // animation: fadeIn 2s;
 
   .icon-container {
     border: 2px solid black;
@@ -42,7 +42,20 @@
 //   }
 // }
 
-p {
+.about-me-text {
   text-align: justify;
   text-justify: inter-word;
+  font-size: 1.15rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.divider {
+  font-size: 1.5rem !important;
+  font-family: monospace;
+  font-weight: 900 !important;
+}
+
+.about-animate {
+  opacity: 0;
+  animation: fadeIn 2s;
+  animation-fill-mode: forwards;
 }
