@@ -1,6 +1,6 @@
 //styles
 import "./Footer.scss";
-
+//test import will delete later
 const Footer = () => {
   return (
     <footer className="footer">
