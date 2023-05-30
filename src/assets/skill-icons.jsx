@@ -30,7 +30,7 @@ export const skillIcons = [
     label: "Bootstrap",
   },
   {
-    id: "bootstrap",
+    id: "sass",
     icon: faSass,
     color: "#cd6799",
     label: "Sass",
