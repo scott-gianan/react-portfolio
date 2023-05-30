@@ -48,14 +48,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-<div className="skills-container">
-  {skillIcons.map((icon) => {
-    return (
-      <div className="icon-container" key={icon.id}>
-        <FontAwesomeIcon icon={icon.icon} color={icon.color} className="icon" />
-        <p>{icon.label}</p>
-      </div>
-    );
-  })}
-</div>;
