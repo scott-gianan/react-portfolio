@@ -1,7 +1,7 @@
 import {
   ProjectOutlined,
   HomeOutlined,
-  ToolOutlined,
+  UserOutlined,
   MailOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
@@ -13,9 +13,9 @@ export default [
     icon: <HomeOutlined />,
   },
   {
-    label: <Link to="/skills">Skills</Link>,
+    label: <Link to="/about">About</Link>,
     key: "/skills",
-    icon: <ToolOutlined />,
+    icon: <UserOutlined />,
   },
   {
     label: <Link to="/projects">Projects</Link>,
