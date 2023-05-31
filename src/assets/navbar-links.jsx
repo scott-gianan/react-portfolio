@@ -15,7 +15,7 @@ export default [
   },
   {
     label: <Link to="/about">About</Link>,
-    key: "/skills",
+    key: "/about",
     icon: <UserOutlined />,
   },
   {
