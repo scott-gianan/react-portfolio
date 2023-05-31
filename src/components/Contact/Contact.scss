@@ -1,0 +1,65 @@
+// .form {
+//   display: flex;
+//   flex-direction: column;
+// }
+// input,
+// textarea {
+//   border: 1px solid black;
+//   border-radius: 4px;
+//   max-width: 300px;
+// }
+// textarea {
+//   height: 50px;
+// }
+.form {
+  opacity: 0;
+  animation: fadeIn 2s;
+  animation-fill-mode: forwards;
+  .contact-divider {
+    font-size: 1.5rem !important;
+  }
+  margin-top: 3rem;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  .col-name,
+  .col-email,
+  .col-message {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-bottom: 5px;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .input {
+    border: 2px solid black;
+    box-shadow: 5px 5px gray;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+  textarea {
+    min-width: 99%;
+    max-width: 99%;
+    height: 150px !important;
+    font-family: inherit;
+  }
+  .btn-submit {
+    margin-top: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+    border: 2px solid black;
+    box-shadow: 5px 5px gray;
+    transition: transform 0.2s ease;
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 10px 10px gray;
+    }
+  }
+}
