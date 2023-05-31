@@ -3,6 +3,7 @@ import {
   HomeOutlined,
   UserOutlined,
   MailOutlined,
+  ProfileOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
@@ -26,5 +27,18 @@ export default [
     label: <Link to="/contact">Contact Me</Link>,
     key: "/contact",
     icon: <MailOutlined />,
+  },
+  {
+    label: (
+      <a
+        href="https://drive.google.com/file/d/1_RZ4DA1_xmTiF1DRHqazoMW5Y94_voVd/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Resume
+      </a>
+    ),
+    key: "resume",
+    icon: <ProfileOutlined />,
   },
 ];
