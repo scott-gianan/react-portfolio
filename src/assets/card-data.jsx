@@ -44,7 +44,7 @@ export default [
     title: "Calculator",
     description: "Built a calculator using HTML, CSS, and vanilla Javascript.",
     alt: "wordle clone site preview",
-    repoUrl: "https://github.com/scott-gianan/wordle-clone/tree/master",
-    liveSiteUrl: "https://wordle-clone-by-scottg.netlify.app/",
+    repoUrl: "https://github.com/scott-gianan/scott-calculator",
+    liveSiteUrl: "https://scott-gianan.github.io/scott-calculator/",
   },
 ];
