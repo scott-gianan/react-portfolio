@@ -1,7 +1,6 @@
 //react
-import { Link, Routes, Route, NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 //components
-import Contact from "../Contact/Contact";
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 //styling
 import "./Home.scss";
@@ -33,13 +32,13 @@ const Home = () => {
             </div>
           </div>
           <div className="home-link-container">
-            <Link to="/contact">
+            <NavLink to="/contact" reloadDocument>
               <FontAwesomeIcon
                 className="icon-link"
                 icon={faEnvelope}
                 color="#896b49"
               />
-            </Link>
+            </NavLink>
             <a
               href="https://www.linkedin.com/in/scott-russell-gianan-784b3b214/"
               target="_blank"
