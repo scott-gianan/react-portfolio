@@ -1,29 +1,15 @@
-// .form {
-//   display: flex;
-//   flex-direction: column;
-// }
-// input,
-// textarea {
-//   border: 1px solid black;
-//   border-radius: 4px;
-//   max-width: 300px;
-// }
-// textarea {
-//   height: 50px;
-// }
 .form {
   opacity: 0;
   animation: fadeIn 2s;
   animation-fill-mode: forwards;
+  margin-top: 2rem;
   .contact-divider {
     font-size: 1.5rem !important;
   }
-  margin-top: 3rem;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
   .col-name,
   .col-email,
-  .col-message {
+  .col-message,
+  .col-subject {
     display: flex;
     flex-direction: column;
   }
@@ -61,5 +47,9 @@
       transform: translateY(-5px);
       box-shadow: 10px 10px gray;
     }
+  }
+  .form-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
