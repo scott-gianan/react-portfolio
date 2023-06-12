@@ -31,7 +31,7 @@ export default [
   {
     label: (
       <a
-        href="https://drive.google.com/file/d/1_RZ4DA1_xmTiF1DRHqazoMW5Y94_voVd/view?usp=sharing"
+        href="https://drive.google.com/file/d/168UFUvb7IUl7E0bvWFPKihxaDqLpWMCe/view"
         target="_blank"
         rel="noreferrer"
       >
